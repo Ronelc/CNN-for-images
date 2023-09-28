@@ -1,0 +1,1162 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+
+% Convert the Lyx colors into more pleasent colors:
+\usepackage{xcolor}
+\definecolor{blue}{RGB}{14,107,217}
+\definecolor{green}{RGB}{0,158,40}
+\definecolor{red}{RGB}{235,16,16}
+\definecolor{brown}{RGB}{164,66,0}
+\definecolor{orange}{RGB}{231,135,26}
+\definecolor{purple}{RGB}{94,53,177}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 2cm
+\rightmargin 1cm
+\bottommargin 3cm
+\headheight 0cm
+\headsep 0cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation 0bp
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "20pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing double
+\align center
+
+\series bold
+\size huge
+)
+\numeric on
+67103
+\numeric off
+( רשתות נוירונים לתמונות | תרגיל
+\family roman
+\shape up
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+שם: רונאל חרדים | ת
+\begin_inset Quotes erd
+\end_inset
+
+ז:
+\lang english
+208917641
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+פרקטי:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+ניסיתי להתקין את 
+\begin_inset Formula $CalebA$
+\end_inset
+
+ אך לצערי לא הצלחתי, לכן עבדתי במהלך התרגיל עם 
+\begin_inset Formula $MNIST$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+הגדרתי את הרשת באופן הבא:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename G arch.jpg
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename D arch.jpg
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+הפרמטרים שהגדרתי לרשת הם:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename net params.jpg
+	scale 60
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+הגרפים שקחבלתי עבור ה 
+\begin_inset Formula $Loss$
+\end_inset
+
+-ים השונים:
+\end_layout
+
+\begin_layout Subsection*
+)א(
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+הגרף עם 
+\begin_inset Formula $BCE\ Loss$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename q1.1.jpg
+	scale 60
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+התמונות שהגנרטור ייצר בהינתן 
+\begin_inset Formula $\text{latent vector}$
+\end_inset
+
+ כתלות ב 
+\begin_inset Formula $epoch$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename q1.1.1.jpg
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+)ב(
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+הגרף עבור 
+\begin_inset Formula $\text{BCE-non saturating  Loss }$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename q1.2.jpg
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+התמונות שהגנרטור ייצר בהינתן 
+\begin_inset Formula $\text{latent vector}$
+\end_inset
+
+ כתלות ב 
+\begin_inset Formula $epoch$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename q1.2.1.jpg
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+)ג(
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+הגרף עבור 
+\begin_inset Formula $MSE\ Loss$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename q1.3.jpg
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+התמונות שהגנרטור ייצר בהינתן 
+\begin_inset Formula $\text{latent vector}$
+\end_inset
+
+ כתלות ב 
+\begin_inset Formula $epoch$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename q1.3.1.jpg
+	scale 60
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+הסבר:
+\end_layout
+
+\begin_layout Standard
+כפי שניתן לראות ה - 
+\begin_inset Formula $non-saturating$
+\end_inset
+
+ ו ה - 
+\begin_inset Formula $least-squares$
+\end_inset
+
+ עם התוצאות הכי טובות, אך ה 
+\begin_inset Formula $BCE$
+\end_inset
+
+ הרגיל פחות יציב ולא כל כך משתפר )ניתן לראות כי ה 
+\begin_inset Formula $Loss$
+\end_inset
+
+ גבוה(, וזה בגלל בעיית הסיטורציה.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+בשאלה השתמשתי ברשת 
+\begin_inset Formula $encoder$
+\end_inset
+
+ שתמפה את התמונות ל 
+\begin_inset Formula $latent\ vector$
+\end_inset
+
+ עם מימד 
+\begin_inset Formula $d=100$
+\end_inset
+
+, אימנתי אותה במקביל לרשת ה 
+\begin_inset Formula $GAN$
+\end_inset
+
+ שכבר אומנה.
+ ניביתי לעשות אופטימיזציה על 
+\begin_inset Formula $z$
+\end_inset
+
+ לבד, ללא רשת 
+\begin_inset Formula $encoder$
+\end_inset
+
+ ולא הצלחתי.
+ התוצאות שהתקבלו עם 
+\begin_inset Formula $z$
+\end_inset
+
+ שנבחר עם רשת 
+\begin_inset Formula $encoder$
+\end_inset
+
+ היו טובות מאד.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+להלן חלק מהתוצאו שקיבלתי:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename q2.examples.jpg
+	scale 90
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename q2.examples1.jpg
+	scale 90
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+גרף ה 
+\begin_inset Formula $Loss$
+\end_inset
+
+ שהתקבל הוא:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename q2.loss.jpg
+	scale 60
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+הסבר:
+\end_layout
+
+\begin_layout Standard
+אנחנו רואים כי המודל הצליח לשחזר את התמונות בצורה טובה מאד, למעט פיקסלים
+ בודדים בצדדים.
+ הסיבה לכך היא כי הרשת הצליחה ללמוד טוב מאד את המיפוי של התמונה ל 
+\begin_inset Formula $latent\ vector$
+\end_inset
+
+ בדומה לרשתות 
+\begin_inset Formula $encoder-decoder$
+\end_inset
+
+.
+ את הפרטים הקטני והפחות חשובים היא לא הצליחה ללמוד, כי רמת הדיוק של הרשת
+ והפרטים שנשמרים בווקטור לא גבוהה עד כדי כך.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+השתמשתי באותו סגנון רשת כמו בשאלה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+, אימנתי את רשת ה 
+\begin_inset Formula $GAN$
+\end_inset
+
+ וביצעתי אופטימיזציה על ה 
+\begin_inset Formula $\text{latent vector}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+)א(
+\end_layout
+
+\begin_layout Standard
+השתמשתי בנורמת 
+\begin_inset Formula $L2$
+\end_inset
+
+ עם 
+\begin_inset Formula $MSELoss$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+עבור תמונות עם רעש, קיבלתי את התוצאות הבאות:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename 3.1 - examples1.jpg
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename 3.1 - examples2.jpg
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+ניתן לראות כי הרעש נוקה מהתמונות באופן יעיל למדיי.
+\end_layout
+
+\begin_layout Subsection*
+)ב(
+\end_layout
+
+\begin_layout Standard
+במשימה זו השתמשתי בנורמת 
+\begin_inset Formula $L1$
+\end_inset
+
+, הרשת הצליחה לשחזר את התמונות אך לא את כולן.
+ ההצלחה של הרשת הייתה חלקית והביצועים לא היו טובים כמו בחלק של הרעש.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+חלק מהתוצאות שקיבלתי:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename 3.2 - examples1.jpg
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename 3.2 - examples2.jpg
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename 3.2 - examples3.jpg
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename 3.2 - examples4.jpg
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+תיאורתי:
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נראה כיצד ניתן לחשב את הפונקציה 
+\begin_inset Formula $p(x)$
+\end_inset
+
+ ב 
+\begin_inset Formula $GLOW$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+תהי רשת נוירונים 
+\begin_inset Formula $M=h_{k}\circ\ldots\circ h_{1}$
+\end_inset
+
+, והתפלגות 
+\begin_inset Formula $z$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+נניח כי 
+\begin_inset Formula $x=M_{\theta}(z)$
+\end_inset
+
+ אזי: 
+\begin_inset Formula 
+\[
+P(x)=\left|\frac{\nabla M^{-1}(x)}{\nabla x}\right|P_{z}\left(M^{-1}(x)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בנוסף: 
+\begin_inset Formula 
+\[
+\log P_{\theta}(x)=\log P(z)+\sum_{j}\left|det\left(\frac{dh_{j-1}}{dh_{j}}\right)\right|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+באופן כזה נוכל לדגום וקטור מההתפלגות 
+\begin_inset Formula $z$
+\end_inset
+
+ולחשב את הדטרמיננטה שלו, המטריצה היא מטריצה משולשית וכמו שראינו בהרצאה,
+ ניתן לחשב פעולה זו ביעילות על מטריצות משולשיות.
+ כך נוכל לחשב בקלות את 
+\begin_inset Formula $p(x)$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+הסבר מדוע לא ניתן לבצע זאת עם 
+\begin_inset Formula $GAN$
+\end_inset
+
+ או 
+\begin_inset Formula $GLO$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+הדרך היחידה לחשב את 
+\begin_inset Formula $p(x)$
+\end_inset
+
+ היא לעבור על כל הוקטורים שנמצאים ב 
+\begin_inset Formula $letent\ space$
+\end_inset
+
+ ולהסיק מי מהם נשלח לתמונה 
+\begin_inset Formula $x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+סיבוכיות החישוב גדולה מאד ולכן זה לא מעשי למצוא את 
+\begin_inset Formula $p(x)$
+\end_inset
+
+ באופן שכזה.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+לפי הנוסחה של רשת 
+\begin_inset Formula $GAN$
+\end_inset
+
+ מתקיים: 
+\begin_inset Formula 
+\[
+\min_{G}\max_{D}V(D,G)=\min_{G}\max_{D}E_{p_{\text{data }}}\left[\log(D(x)]+E_{p_{z}}[\log(1-D(G(z))]\right.
+\]
+
+\end_inset
+
+ אם 
+\begin_inset Formula $D$
+\end_inset
+
+ כבר התכנס, אזי: 
+\begin_inset Formula 
+\[
+\frac{\partial V}{\partial G}=\frac{1}{m}\sum_{i=1}^{m}\frac{\log e*\left(-\frac{\partial D(G(z))}{\partial G(z)}\right)}{1-D(G(z))}
+\]
+
+\end_inset
+
+ וגם 
+\begin_inset Formula $D\left(G\left(z\right)\right)\Rightarrow0$
+\end_inset
+
+, ולכן נקבל כי: 
+\begin_inset Formula 
+\[
+\frac{\partial V}{\partial G}=\frac{1}{m}\sum_{i=1}^{m}\frac{\log e*\left(-\frac{\partial D(G(z))}{\partial G(z)}\right)}{1-D(G(z))}
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+ 
+\end_layout
+
+\begin_layout Subsection*
+)א(
+\end_layout
+
+\begin_layout Standard
+נתון לנו דיסקרימנטור 
+\begin_inset Formula $D$
+\end_inset
+
+, ואנחנו מחפשים גנרטור 
+\begin_inset Formula $G$
+\end_inset
+
+ שימזער את 
+\begin_inset Formula $V(D,G)\Rightarrow0$
+\end_inset
+
+, כלומר יצליח 
+\begin_inset Quotes eld
+\end_inset
+
+לעבוד
+\begin_inset Quotes erd
+\end_inset
+
+ על 
+\begin_inset Formula $D$
+\end_inset
+
+ כדי שיחשוב שהתמונות ש 
+\begin_inset Formula $G$
+\end_inset
+
+ מייצר הן אמיתיות.
+\end_layout
+
+\begin_layout Subsection*
+)ב(
+\end_layout
+
+\begin_layout Standard
+בהנחה שהבעיה הפנימית נפתרה, כלור מצאנו גנרטור 
+\begin_inset Formula $G$
+\end_inset
+
+ כמו שרצינו.
+ כעת, יש לנו בעיה נוספת - אנחנו רוצים למצוא דיסקרימנטור 
+\begin_inset Formula $D$
+\end_inset
+
+ שיצליח 
+\begin_inset Quotes eld
+\end_inset
+
+לעלות
+\begin_inset Quotes erd
+\end_inset
+
+ על 
+\begin_inset Formula $G$
+\end_inset
+
+.
+ כלומר, נרצה למקסם את היכולות של 
+\begin_inset Formula $D$
+\end_inset
+
+ לזהות איזה תמונה היא המזוייפת.
+ זוהי בעיית קלאסיפיקציה, ולכן גם רשת עם יכולות מוגבלות תצליח לפתור אותה.
+\end_layout
+
+\begin_layout Subsection*
+)ג(
+\end_layout
+
+\begin_layout Standard
+הבעיה היא - אם הדיסקרימנטור 
+\begin_inset Formula $D$
+\end_inset
+
+ שמצאנו הוא גרוע, כלומר הוא לא מזהה טוב איזו תמונה היא המזוייפת.
+ הגנרטור 
+\begin_inset Formula $G$
+\end_inset
+
+ לא ישאף להשתפר, משום שגם עם תמונות גרועות הוא מצליח 
+\begin_inset Quotes eld
+\end_inset
+
+לעבוד
+\begin_inset Quotes erd
+\end_inset
+
+ על 
+\begin_inset Formula $D$
+\end_inset
+
+.
+ לכן גם 
+\begin_inset Formula $G$
+\end_inset
+
+לא יהיה טוב, ולא ייצר לנו תמונות טובות.
+\end_layout
+
+\begin_layout Section*
+
+\end_layout
+
+\end_body
+\end_document
