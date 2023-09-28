@@ -1,0 +1,1070 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\usepackage{culmus}
+
+% Convert the Lyx colors into more pleasent colors:
+\usepackage{xcolor}
+\definecolor{blue}{RGB}{14,107,217}
+\definecolor{green}{RGB}{0,158,40}
+\definecolor{red}{RGB}{235,16,16}
+\definecolor{brown}{RGB}{164,66,0}
+\definecolor{orange}{RGB}{231,135,26}
+\definecolor{purple}{RGB}{94,53,177}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1cm
+\topmargin 2cm
+\rightmargin 1cm
+\bottommargin 3cm
+\headheight 0cm
+\headsep 0cm
+\footskip 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation 0bp
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "20pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing double
+\align center
+
+\series bold
+\size huge
+)
+\numeric on
+67103
+\numeric off
+( רשתות נוירונים לתמונות | תרגיל
+\family roman
+\shape up
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+שם: רונאל חרדים | ת
+\begin_inset Quotes erd
+\end_inset
+
+ז:
+\lang english
+208917641
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+חלק פרקטי:
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\end_layout
+
+\begin_layout Standard
+נשים לב כי עד
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+128
+\numeric off
+ ערוצים מתרחש 
+\begin_inset Formula $underfitting$
+\end_inset
+
+ ולכן ככל שאנחנו מעלים את מספר הערוצים ה 
+\begin_inset Formula $Loss$
+\end_inset
+
+ יורד.
+ )מספר ה 
+\begin_inset Formula $epochs$
+\end_inset
+
+ שהרצתי הוא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+10
+\numeric off
+(.
+\end_layout
+
+\begin_layout Standard
+אך לאחר מכן מתרחש 
+\begin_inset Formula $overfitting$
+\end_inset
+
+ ומספר הערוצים הגבוה גורם ל 
+\begin_inset Formula $Loss$
+\end_inset
+
+ לעלות.
+\end_layout
+
+\begin_layout Standard
+מספר הערוצים שהשיג את ה 
+\begin_inset Formula $Loss$
+\end_inset
+
+ הנמוך ביותר הוא : 
+\begin_inset Formula $128$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+הגרפים שהדפסתי הם גרפים שהמראים את השינוי ב 
+\begin_inset Formula $Loss$
+\end_inset
+
+ הממוצע, כתלות במספר הערוצים.
+ כשאר מספר הערוצים היה: 
+\begin_inset Formula $[2,4,8,16,32,64,128,512]$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+גרף ה 
+\begin_inset Formula $Loss$
+\end_inset
+
+ על ה 
+\begin_inset Formula $Train$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename train loss.jpg
+	scale 50
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+גרף ה 
+\begin_inset Formula $Loss$
+\end_inset
+
+ על ה 
+\begin_inset Formula $Test$
+\end_inset
+
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename test loss.jpg
+	scale 50
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+כאמור, ניתן לראות כי הגרפים של סט האימון וסט הבוחן היו קרובים עד
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+128
+\numeric off
+, אך לאחר מכן ה 
+\begin_inset Formula $Loss$
+\end_inset
+
+על סט האימון יורד, בעוד על סט הבוחן הוא עולה משום שמתרחש 
+\begin_inset Formula $overffit$
+\end_inset
+
+.
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+מספר הפרמטרים הנלמדים של הרשת הם: 
+\end_layout
+
+\begin_layout Standard
+יש לנו שכבת קונבולוציה, שכבת 
+\begin_inset Formula $ReLU$
+\end_inset
+
+ ושכבת 
+\begin_inset Formula $pooling$
+\end_inset
+
+ כך שלש פעמים, כאשר גודל הפילטר =
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+לכן סה
+\begin_inset Quotes erd
+\end_inset
+
+כ הפרמטרים של שכבות הקונבולוציה הם:
+\series bold
+
+\begin_inset Formula 
+\begin{align*}
+first\ conv\ layer & :\left(32\cdot32\cdot3\cdot\text{num of out channels}\right)\\
+2\ other\ layers & :\left(32\cdot32\cdot\text{num of out channels}\cdot\text{num of out channels}\right)
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר 
+\begin_inset Formula 
+\[
+\text{\ensuremath{\text{num of out channels}}}\in[2,4,8,16,32,64,128,512]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+לאחר שהורדנו את שכבת ה 
+\begin_inset Formula $ReLU$
+\end_inset
+
+ וגרמנו לרשת להיות לינארית.
+ גם עם מספר הערוצים שמקודם הבאנו את ה 
+\begin_inset Formula $Loss$
+\end_inset
+
+ למינימום קיבלנו את ה 
+\begin_inset Formula $Loss$
+\end_inset
+
+ הבא:
+\begin_inset Formula 
+\[
+\text{Average loss on the test set: 1.139}
+\]
+
+\end_inset
+
+ כאשר ה 
+\begin_inset Formula $Loss$
+\end_inset
+
+ עם השכבות האי לינאריות היה נמוך יותר.
+\begin_inset Newline newline
+\end_inset
+
+בחרתי את מספר ערוצי הפלט להיות כל פעם אחד מהבאים: 
+\begin_inset Formula $[128,512,1024,2048]$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+כעת נראה את הגרף לאחר שהגדלנו את הרשת:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+הגרף על סט האימון:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename train q2.jpg
+	scale 50
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\series bold
+הגרף על הטסט:
+\end_layout
+
+\begin_layout Standard
+ניתן לראות כי הגדלת הרשת לא תרמה לירידת ה 
+\begin_inset Formula $Loss$
+\end_inset
+
+.
+ משום שהורדת השכבות אי הלינאריות מהרשת פוגעת בביצועים שלה וביכולות שלה לחזות
+ דברים אי לינארים שמתרחשים בעולם האמיתי, וגם הגדלת הרשת לא תעזור להתמודד
+ עם זה.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename test q2.jpg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+לאחר ששינינו את הרשת לעומק רדוד יותר, קיבלנו את התוצאות הבאות:
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+חיברתי את שכבת ה 
+\begin_inset Formula $FC$
+\end_inset
+
+ לפונקציית 
+\begin_inset Formula $ReLU$
+\end_inset
+
+ של שכבת הקונבולוציה הראשונה.
+ כאשר מספר הפילטרים עמד על
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+512
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+, כך שמספר המשקולות הנלמדים ברשת היה גבוה, אך ה 
+\begin_inset Formula $Loss$
+\end_inset
+
+ שהתקבל הוא: 
+\begin_inset Formula 
+\[
+\text{Average loss on the test set: 1.507}
+\]
+
+\end_inset
+
+ ניתן לראות כי ביצועי הרשת פחות טובים, משום שהיא פחות יכולה לזהות פונקציות
+ מורכבות הקיימות בעולם האמיתי.
+\end_layout
+
+\begin_layout Part
+חלק תיאורתי:
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+נראה כי התנאי 
+\begin_inset Formula $L[x(i+k)](j)=L[x(i)](j+k)$
+\end_inset
+
+ שקול להגדרת הקונבולוציה: 
+\end_layout
+
+\begin_layout Standard
+נגדיר את פונקציית הדלתא להיות הפונקציה הבאה: 
+\begin_inset Formula 
+\[
+\delta(i)=\left\{ \begin{array}{l}
+1\ \ \ i=0\\
+0\ \ \ else
+\end{array}\right.
+\]
+
+\end_inset
+
+ ונוכל לכתוב את 
+\begin_inset Formula $x(t)$
+\end_inset
+
+ באופן הבא: 
+\begin_inset Formula 
+\[
+x(t)=\sum_{i}x(i)\delta(t-i)
+\]
+
+\end_inset
+
+ כי אם מתקיים ש 
+\begin_inset Formula $i=t$
+\end_inset
+
+ אז נקבל את 
+\begin_inset Formula $x(t)$
+\end_inset
+
+, אחרת נקבל 
+\begin_inset Formula $0$
+\end_inset
+
+.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+כעת נגדיר את 
+\begin_inset Formula $g=L[\delta(t)]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+מהנתון מתקיים: 
+\begin_inset Formula 
+\[
+.L[\delta(t-i)](s)=L[\delta(t)](s-i)=h(s-i)
+\]
+
+\end_inset
+
+ ומהלינאריות של 
+\begin_inset Formula $L$
+\end_inset
+
+ מתקיים: 
+\begin_inset Formula 
+\[
+L[x(t)]=L\left[\sum_{i}x(i)\delta(t-i)\right]=\sum_{i}x(i)L[\delta(t-i)]=\sum_{i}x(i)h(s-i)
+\]
+
+\end_inset
+
+ וזאת הגדרת הקונבולוציה כנדרש.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+ 
+\end_layout
+
+\begin_layout Standard
+כאשר אנחנו עושים 
+\begin_inset Formula $flatting$
+\end_inset
+
+ לפלט 
+\begin_inset Formula $2D$
+\end_inset
+
+ ומכניסים אותו לשכבת 
+\begin_inset Formula $FC$
+\end_inset
+
+ הסדר לא משנה.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+הסיבה היא:
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+לכל נוירון בשכבה הקודמת יש צלע לכל נוירון בשכבה הבאה.
+ כלומר לא משנה כיצד נסדר את הקודקודים בשכבה הקודמת כולם יחוברו לשכבה הבאה
+ והרשת תלמד את המשקולות ללא שינוי בסדר הקודקודים.
+\end_layout
+
+\begin_layout Section*
+שאלה
+\family roman
+\series bold
+\shape smallcaps
+\size larger
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $ReLU$
+\end_inset
+
+: פונקציה זו אינה לינארית כמו שראינו בהרצאה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+8
+\numeric off
+ולכן אינה 
+\begin_inset Formula $LTI$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $stribe$
+\end_inset
+
+: אינה 
+\begin_inset Formula $LTI$
+\end_inset
+
+.
+ משום שאם נבצע הזזה של תמונה ימינה, אזי - אם קודם נעשה פולינג ולאחר מכן
+ נזיז אנחנו נקבל את כל הפיקסלים שממוקמים בצד ימין למעלה בכל חלון.
+ מצד שני אם קודם נזיז ולאחר מכן נבצע פוליג נקבל את הפיקסלים מצד שמאל של
+ החלון.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $bias$
+\end_inset
+
+: אינו 
+\begin_inset Formula $LTI$
+\end_inset
+
+ משום שהוא לא לינארי כי הוא לא מקיים את הכלל של אדטיביות.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\text{Multiplication with a fully-connected matrix}$
+\end_inset
+
+: אם משקולות המטריצה קבועים, אז כפל המטריצה הינו לינארי.
+ הוא מקיים את תכונות הלינאריות ולכן 
+\begin_inset Formula $LTI$
+\end_inset
+
+.
+ אך אם משקולות המטריצה ישתנו כתלות בזמן, אזי הפעולה לא 
+\begin_inset Formula $LTI$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_body
+\end_document
